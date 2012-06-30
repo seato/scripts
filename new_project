@@ -1,0 +1,10 @@
+#!/bin/bash
+mkdir -p $1
+cd $1
+mkdir src
+mkdir include
+mkdir obj
+mkdir bin
+touch README.md
+cd ..
+echo "badda bing, badda boom"
